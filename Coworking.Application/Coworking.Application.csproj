@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Coworking.DataContracts\Coworking.DataContracts.csproj" />
+    <ProjectReference Include="..\Coworking.AppContracts\Coworking.AppContracts.csproj" />
+    <ProjectReference Include="..\Coworking.Business\Coworking.Business.csproj" />
+    <ProjectReference Include="..\Coworking.DataAccess\Coworking.DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Polly" Version="7.1.1" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
